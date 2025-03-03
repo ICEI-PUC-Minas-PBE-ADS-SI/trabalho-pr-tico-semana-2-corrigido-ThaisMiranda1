@@ -1,0 +1,127 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(56, 69%, 87%);
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: hwb(42 15% 62%);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Divisão entre os lados esquerdo e direito */
+.main-content {
+    display: flex;
+    width: 100%;
+}
+
+/* Lado esquerdo */
+.left {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left ul li {
+    margin-bottom: 10px;
+}
+
+.left ul li strong {
+    color: hwb(42 15% 62%);
+}
+
+.left ul li span {
+    font-style: italic;
+}
+
+/* Linha de separação */
+.separator {
+    border-left: 2px solid hwb(42 15% 62%);
+    margin: 0 20px;
+}
+
+/* Lado direito */
+.right {
+    width: 65%;
+    padding: 20px;
+    background-color: rgb(244, 228, 216);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right h2 {
+    font-size: 22px;
+    color: hwb(42 15% 62%);
+    margin-bottom: 20px;
+    border-bottom: 2px solid hwb(42 15% 62%);
+    padding-bottom: 5px;
+}
+
+/* Seções de conteúdo */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 40px;
+}

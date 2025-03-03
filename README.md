@@ -1,7 +1,9 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Thaís Paula Miranda
+- Matricula:  878662
+ 
+## Print da tela da página crida
+![alt text](<public/Tela_Visualização .jpg>) Print da tela de visualização da página criada
 
-## Print da tela da página criad
